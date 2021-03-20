@@ -96,7 +96,7 @@ class _GNavState extends State<GNav> {
                           ),
                       debug: widget.debug,
                       margin: t.margin ?? widget.tabMargin,
-                      active: selectedIndex == widget.tabs.indexOf(t),
+                      active: widget.selectedIndex == widget.tabs.indexOf(t),
                       gap: t.gap ?? widget.gap,
                       iconActiveColor: t.iconActiveColor ?? widget.activeColor,
                       iconColor: t.iconColor ?? widget.color,
